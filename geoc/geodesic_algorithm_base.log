@@ -1,0 +1,1340 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=mex 2013.8.13)  22 APR 2014 20:21
+entering extended mode
+ %&-line parsing enabled.
+**geodesic_algorithm_base.h
+(./geodesic_algorithm_base.h
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in vertical mode.
+l.3 #
+     ifndef GEODESIC_ALGORITHM_BASE_122806
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3 #ifndef GEODESIC_
+                     ALGORITHM_BASE_122806
+? 
+! You can't use `macro parameter character #' in math mode.
+l.4 #
+     define GEODESIC_ALGORITHM_BASE_122806
+? 
+! Interruption.
+<to be read again> 
+                   d
+l.4 #d
+      efine GEODESIC_ALGORITHM_BASE_122806
+? q
+OK, entering \batchmode...
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.5 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.6 #
+     include "geodesic_mesh.h"
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.6 #include "geodesic_
+                       mesh.h"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.7 #
+     include "geodesic_constants_and_simple_functions.h"
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.8 #
+     include <iostream>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.9 #
+     include <ctime>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.10 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (23.20265pt too wide) in paragraph at lines 6--10
+[]\tenrm include "geodesic$[]\teni esh:h\tenrm "\teni include\tenrm "\teni geod
+esic[]onstants[]nd[]imple[]unctions:h\tenrm "\teni include < iostream > include
+ <|
+
+\hbox(6.94444+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm c
+.\tenrm l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.21 		UNDEFINED_
+                 ALGORITHM
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.22     }
+          ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.23 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.25 		m_
+         type(UNDEFINED_ALGORITHM),
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.29 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (160.82434pt too wide) in paragraph at lines 24--29
+[]\tenrm GeodesicAlgorithmBase(geodesic::Mesh* mesh): m$[]\teni ype\tenrm (\ten
+i UNDEFINED[]LGORITHM\tenrm )\teni ; m[]ax[]ropagation[]istance\tenrm (1\teni e
+\tenrm 100)\teni ; m[]esh\tenrm (\teni mesh\tenrm )[];$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm G
+.\tenrm e
+.\tenrm o
+.\kern0.27779
+.etc.
+
+! Misplaced alignment tab character &.
+l.32 ... void propagate(std::vector<SurfacePoint>&
+                                                   sources,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.33    						   double max_
+                            propagation_distance = GEODESIC_INF,			//propaga...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.35 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (400.66269pt too wide) in paragraph at lines 32--35
+[]\tenrm virtual void pro-pa-gate(std::vector<SurfacePoint> so-ur-ces, do-uble 
+max$[]\teni ropagation[]istance \tenrm = \teni GEODESIC[]NF; ==propagationalgor
+ithmstopsafterreachingthecertaindistancefromthesourcestd \tenrm ::|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\tenrm i
+.\tenrm r
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.36 	virtual void trace_
+                         back(SurfacePoint& destination,		//trace back piece...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.36 	virtual void trace_back(SurfacePoint&
+                                            destination,		//trace back piece...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.37 							std::vector<SurfacePoint>&
+                                       path) = 0;
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.38 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.39 	void geodesic(SurfacePoint&
+                                  source,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.40 						  SurfacePoint&
+                           destination,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.41 						  std::vector<SurfacePoint>&
+                                        path); //lazy people can find geodes...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.43 	void geodesic(std::vector<SurfacePoint>&
+                                               sources,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.44 						  std::vector<SurfacePoint>&
+                                        destinations,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.45 ...  std::vector<std::vector<SurfacePoint> >&
+                                                   paths); //lazy people can...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (82.7738pt too wide) in paragraph at lines 43--46
+[]\tenrm void geo-de-sic(std::vector<SurfacePoint> so-ur-ces, std::vector<Surfa
+cePoint> de-sti-na-tions, std::vector<std::vector<SurfacePoint>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\kern-0.27779
+.\tenrm o
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.47 	virtual unsigned best_
+                            source(SurfacePoint& point,			//after propagatio...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.47 	virtual unsigned best_source(SurfacePoint&
+                                                 point,			//after propagatio...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.48 								 double&
+                      best_source_distance) = 0;
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (365.92126pt too wide) in paragraph at lines 47--49
+[]\tenrm virtual unsi-gned best$[]\teni ource\tenrm (\teni SurfacePointpoint; =
+=afterpropagationstepisdone; quicklyfindwhatsourcethispointbelongstoandwhatisth
+edistancetothissourcedoublebest[]ource[]istance\tenrm ) =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\tenrm i
+.\tenrm r
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.50 	virtual void print_
+                         statistics()		//print info about timing and memory ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.54 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (417.7268pt too wide) in paragraph at lines 50--54
+[]\tenrm virtual void print$[]\teni tatistics\tenrm ()\teni ==printinfoabouttim
+ingandmemoryusageinthepropagationstepofthealgorithm[]\tenrm ;$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\tenrm i
+.\tenrm r
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.55 	AlgorithmType type(){return m_
+                                    type;};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.55 	AlgorithmType type(){return m_type;}
+                                          ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.56 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.59 	geodesic::Mesh* mesh(){return m_
+                                      mesh;};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.59 	geodesic::Mesh* mesh(){return m_mesh;}
+                                            ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.62 	void set_
+               stop_conditions(std::vector<SurfacePoint>* stop_points,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.68 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (178.56877pt too wide) in paragraph at lines 62--68
+[]\tenrm void set$[]\teni top[]onditions\tenrm (\teni std \tenrm :: \teni vecto
+r < SurfacePoint > \tensy ^^C\teni stop[]oints; doublestop[]istance\tenrm ); \t
+eni doublestop[]istance\tenrm ()[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\kern-0.27779
+.\tenrm o
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.69 	AlgorithmType m_
+                      type;					   // type of the algorithm
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.70 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.71 	typedef std::pair<vertex_
+                               pointer, double> stop_vertex_with_distace_type;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.74 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (37.7085pt too wide) in paragraph at lines 71--74
+[]\tenrm typedef std::pair<vertex$[]\teni ointer; double > stop[]ertex[]ith[]is
+tace[]ype\tenrm ; \teni std \tenrm :: \teni vector < stop[]ertex[]ith[]istace[]
+ype >|
+
+\hbox(6.94444+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm t
+.\kern-0.27779
+.\tenrm y
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (149.07376pt too wide) in paragraph at lines 71--74
+\teni m[]top[]ertices\tenrm ; \teni ==algorithmstopspropagationaftercoveringcer
+tainverticesdoublem[]ax[]ropagation[]istance\tenrm ; \teni ==orreachingthecerta
+indistance$ |
+
+\hbox(7.5+2.86108)x469.75499
+.\teni m
+.\hbox(3.01389+0.0)x4.27432, shifted 1.49998
+..\seveni s
+.\teni t
+.\teni o
+.\teni p
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.75 	geodesic::Mesh* m_
+                        mesh;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.76 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.77 	double m_
+               time_consumed;		//how much time does the propagation step takes
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.79 }
+      ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.80 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (283.4357pt too wide) in paragraph at lines 77--80
+[]\tenrm double m$[]\teni ime[]onsumed\tenrm ; \teni ==howmuchtimedoesthepropag
+ationsteptakesdoublem[]ropagation[]istance[]topped\tenrm ; \teni ==atwhatdistan
+ce\tenrm (\teni ifany\tenrm )\teni thepropagationalgorithmstopped\tenrm ;$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm d
+.\tenrm o
+.\tenrm u
+.\tenrm b
+.etc.
+
+! Misplaced alignment tab character &.
+l.81 ...e double length(std::vector<SurfacePoint>&
+                                                   path)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.88 			length += path[i].distance(&
+                                    path[i+1]);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.94 inline void print_
+                       info_about_path(std::vector<SurfacePoint>& path)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.94 ...info_about_path(std::vector<SurfacePoint>&
+                                                   path)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.100 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (403.36014pt too wide) in paragraph at lines 94--100
+[]\tenrm inline void print$[]\teni nfo[]bout[]ath\tenrm (\teni std \tenrm :: \t
+eni vector < SurfacePoint > path\tenrm )[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm l
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.103 	switch(m_
+                type)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.115 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.116 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (631.83484pt too wide) in paragraph at lines 101--116
+[]\tenrm inline std::string Geo-de-si-cAl-go-ri-thm-Base::name()  switch(m$[]\t
+eni ype\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm l
+.\tenrm i
+.etc.
+
+! Misplaced alignment tab character &.
+l.117 ...esicAlgorithmBase::geodesic(SurfacePoint&
+                                                   source,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 											SurfacePoint&
+                               destination,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.119 											std::vector<SurfacePoint>&
+                                            path) //lazy people can find geo...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.122 	std::vector<SurfacePoint> stop_
+                                      points(1, destination);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.124 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (55.81544pt too wide) in paragraph at lines 117--124
+[]\tenrm inline void Geo-de-si-cAl-go-ri-thm-Base::geodesic(SurfacePoint so-urc
+e, Sur-fa-ce-Po-int de-sti-na-tion, std::vector<SurfacePoint>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm l
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (16.77943pt too wide) in paragraph at lines 117--124
+\tenrm std::vector<SurfacePoint> stop$[]\teni oints\tenrm (1\teni ; destination
+\tenrm ); \teni doubleconstmax[]ropagation[]istance \tenrm = \teni GEODESIC[]NF
+\tenrm ;$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm t
+.\tenrm d
+.\tenrm :
+.\tenrm :
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.126 			  max_
+               propagation_distance,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.127 			  &
+            stop_points);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.128 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.129 	trace_
+             back(destination, path);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.130 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.131 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.132 ...Base::geodesic(std::vector<SurfacePoint>&
+                                                   sources,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.133 											std::vector<SurfacePoint>&
+                                            destinations,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.134 ...	std::vector<std::vector<SurfacePoint> >&
+                                                   paths) //lazy people can ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.136 	double const max_
+                        propagation_distance = GEODESIC_INF;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.137 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1.8431pt too wide) in paragraph at lines 132--137
+[]\tenrm inline void Geo-de-si-cAl-go-ri-thm-Base::geodesic(std::vector<Surface
+Point> so-ur-ces, std::vector<SurfacePoint>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm l
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.139 			  max_
+               propagation_distance,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.140 			  &
+            destinations);		//we use desinations as stop points
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.141 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.146 		trace_
+              back(destinations[i], paths[i]);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.147 	}
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.148 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.149 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.150 inline void GeodesicAlgorithmBase::set_
+                                             stop_conditions(std::vector<Sur...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.154 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.154 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (257.82684pt too wide) in paragraph at lines 150--154
+[]\tenrm inline void GeodesicAlgorithmBase::set$[]\teni top[]onditions\tenrm (\
+teni std \tenrm :: \teni vector < SurfacePoint > \tensy ^^C\teni stop[]oints; d
+oublestop[]istance\tenrm )[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm l
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.155 	if(!stop_
+                points)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.160 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.161 	m_
+         stop_vertices.resize(stop_points->size());
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.162 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.163 	std::vector<vertex_
+                          pointer> possible_vertices;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.166 		SurfacePoint* point = &
+                               (*stop_points)[i];
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.167 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.167 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (146.825pt too wide) in paragraph at lines 163--167
+[]\tenrm std::vector<vertex$[]\teni ointer > possible[]ertices\tenrm ; \teni fo
+r\tenrm (\teni unsignedi \tenrm = 0; \teni i < stop[]oints\tensy ^^@ \teni > si
+ze\tenrm (); + + \teni i\tenrm )[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm d
+.\tenrm :
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.168 		possible_
+                 vertices.clear();
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.169 		m_mesh->closest_vertices(point, &
+                                         possible_vertices);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.170 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.171 		vertex_
+               pointer closest_vertex = NULL;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.183 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (63.96178pt too wide) in paragraph at lines 171--183
+[]\tenrm vertex$[]\teni ointerclosest[]ertex \tenrm = \teni NULL\tenrm ; \teni 
+doublemin[]istance \tenrm = 1\teni e\tenrm 100; \teni for\tenrm (\teni unsigned
+j \tenrm = 0; \teni j < possible[]ertices:size\tenrm (); + +|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm v
+.\kern-0.27779
+.\tenrm e
+.\tenrm r
+.etc.
+
+
+Overfull \hbox (274.0682pt too wide) in paragraph at lines 171--183
+\teni j\tenrm )[]\teni assert\tenrm (\teni closest[]ertex\tenrm );$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni j
+.\kern0.57243
+.\tenrm )
+.\hbox(7.5+2.5)x638.79337
+..\teni d
+..\teni o
+..\teni u
+..\teni b
+..\teni l
+..etc.
+.\teni a
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.184 		m_
+          stop_vertices[i].first = closest_vertex;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.186 	}
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.187 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.188 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.191 #
+       endif //GEODESIC_ALGORITHM_BASE_122806
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.191 #endif //GEODESIC_
+                        ALGORITHM_BASE_122806
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.192 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Interruption.
+l.7589888 
+          
+? q
+OK, entering \batchmode...
+
+! Interruption.
+l.9083094 
+          
+? quit
+OK, entering \batchmode...
+
+! Interruption.
+l.25869521 
+           
+? 
+! Interruption.
+l.143518787 
+            
+? 
+! Interruption.
+l.150246997 
+            
+? !
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? !X
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? X!
+No pages of output.
